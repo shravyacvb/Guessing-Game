@@ -20,10 +20,6 @@ Valid Guess - Any guess that does belongs to the given list of words is conside
 
 Invalid Guess - Any guess that does not belong to the given list of words is considered an invalid guess
 
-# Source and Licensing
-
-Background image source - Pinterest (Indie Quiz art)
-
 # How to Install
 
 The project will run with `npm install` that would install all the packages and, `node server.js` to start the server.
