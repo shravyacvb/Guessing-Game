@@ -1,0 +1,121 @@
+/*********************************
+Stylings for elements
+*********************************/
+
+body {
+    text-align: center;
+}
+
+form {
+    padding: 0.5rem;
+}
+
+button {
+    background: #ed754f;
+    color: white;
+    height: 1.5rem;
+    padding: 1rem;
+    display: inline-flex;
+    font-size: medium;
+    align-items: center;
+    font-size: medium;
+    box-shadow: 4px 4px 3px darkgrey;
+}
+
+h1 {
+    color: navy;
+}
+
+h2, h3 {
+    color: green;
+    margin-top: 3rem;
+}
+
+h3 {
+    color : blueviolet;
+}
+
+/*********************************************
+Stylings by class names in hierarchical order
+********************************************/
+
+.celebration {
+    background-image: url('./Celebration.gif');
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+.login-page, .home-page {
+    border: 0.1rem solid #464646;
+    box-shadow: 6px 4px 3px darkgrey;
+    display: block;
+    background: linear-gradient(150deg, #5c7dc563, transparent);
+    font-family: fantasy;
+    font-size: large;
+    padding: 1rem;
+}
+
+.username {
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.logout {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.words {
+    font-size: medium;
+    border: 5px double black;
+    padding: 1rem;
+    margin: 1rem;
+    background: #baa1dbbf;
+}
+
+.words p {
+    font-size: large;
+    text-decoration: underline;
+    color: navy;
+}
+
+.table-header {
+    background: #183693c7;
+    color: white;
+}
+
+.row {
+    border: 1px black solid;
+    height: 2em;
+    width: 50%;
+    display: inline-flex;
+    align-items: center;
+}
+
+.col {
+    width: 100%;
+}
+
+/*****************************************************************************
+Stylings for additinal features like diable, hide elements and error messages
+******************************************************************************/
+
+
+:disabled {
+    background: grey;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    color: darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin: 0;
+}
